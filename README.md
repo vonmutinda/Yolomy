@@ -1,6 +1,6 @@
 # Yolomy - Our Clothing, Your Comfort !
 
-A trendy online clothng store.
+A trendy online clothing store.
 
 live app: [Yolomy](https://vonmutinda.github.io/Yolomy/)
 
@@ -58,7 +58,6 @@ Open your browser on `http://localhost:4200/`, `http://127.0.0.1:4200`
 
 + Contact me [von MUTINDA](maxwellmutinda@outlook.com) for any comments, reviews or insights .
 
-+ This is a pet project, I don't intend on having contributors on board.
 
 ## License ([MIT License](http://choosealicense.com/licenses/mit/))
 
