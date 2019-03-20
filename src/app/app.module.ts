@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

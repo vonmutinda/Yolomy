@@ -1,6 +1,5 @@
 .container{
-    // padding-left: 0;
-    // padding-right: 0;
+   color:white;
 }
 
 
@@ -18,13 +17,41 @@
 
 .page1-content{
    margin-top: 20%;
-   color: white;
 }
 
-#down{
-    bottom: 0;
-    margin-bottom: 10px;
+#see-product, .btn-primary{
+    background-color: #661a00;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#661a00), color-stop(6%, #661a00), to(#661a00));
+}
 
+div#down i{
+   font-size: 24px; 
+}
+
+.cat{
+   color: #434343;
+   padding: 20px 0; 
+}
+
+.men:after{
+    position: absolute;
+    top: 1em;
+    left: 0;
+    content: "";
+    width: 150px;
+    height: 0;
+    border-bottom: 1px solid #434343;
+}
+
+
+a.card-link, h5{
+    color:#434343;
+    font-size: 15px;
+}
+
+
+.selected{
+    border: 5px solid  #a99b76;
 }
 
 
@@ -32,6 +59,18 @@
     background-color: #c6bfa5;
     height: 150px;
     padding: 10px;
+    padding-top: 5%;
+    padding-left: 30px;
+}
+
+mat-checkbox{
+    padding-right: 10px;
+   
+}
+
+.btn-lg{
+    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .item{
@@ -40,4 +79,33 @@
  
 img{
     margin-left: 25%;
+}
+
+
+#about-us{
+    background-image: url('../assets/backgrounds/about.jpg');
+    height: 350px;
+    padding-top: 10%;
+}
+
+blockquote p{
+    
+}
+
+.discount{
+    height: 60px;
+    color: white;
+    background-color: #535154;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: #414141;
+    padding: 20px;
+}
+
+.credits{
+    padding-top: 5%;
 }
