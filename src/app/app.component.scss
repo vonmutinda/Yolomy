@@ -1,11 +1,35 @@
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
+.container{
+    // padding-left: 0;
+    // padding-right: 0;
 }
 
 
 #page1{
-    background-image: url('/src/assets/backgrounds/hero.jpg');
+    background-image: url('../assets/backgrounds/hero.jpg');
     background-repeat: no-repeat;
     background-attachment: cover;
+    height: 100vh;
+    // width: 100vw;
+}
+
+.navbar{
+    border-style: none;
+}
+
+.page1-content{
+   margin-top: 20%;
+   color: white;
+}
+
+#down{
+    bottom: 0;
+    margin-bottom: 10px;
+
+}
+
+
+#page2{
+    background-color: #c6bfa5;
+    height: 150px;
+    padding: 10px;
 }
