@@ -1,27 +1,65 @@
-# Yolomy
+# Yolomy - Our Clothing, Your Comfort !
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
+A trendy online clothng store.
 
-## Development server
+live app: [Yolomy](https://vonmutinda.github.io/Yolomy/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+===================================================================
 
-## Code scaffolding
+## Description & User Specifications
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Yolomy is a web application  that offers;
 
-## Build
++ [x] Seamless shopping experience.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Set-up and Installation
 
-## Running unit tests
+### Software Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    - Node.js and npm ( Node Package Manager )
 
-## Running end-to-end tests
+```bash
+https://nodejs.org/en/
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Installation of Dependencies
 
-## Further help
+First Step: - cloning the repository
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+git clone https://github.com/vonmutinda/Yolomy.git
+```
+
+Navigate to the folder in terminal and run the following: ( depedency injection )
+
+
+```bash
+npm install
+```
+
+### Running the app in local environment
+
+Extract the zip file and In the same terminal type:
+
+```bash
+ng serve
+```
+
+Open your browser on `http://localhost:4200/`, `http://127.0.0.1:4200`
+
+## Technologies used
+
+    - Angular 4 +
+    - HTML5
+    - CSS3 / Bootswatch
+    - Google Fonts
+
+## Contributing and Contact Info
+
++ Contact me [von MUTINDA](maxwellmutinda@outlook.com) for any comments, reviews or insights .
+
++ This is a pet project, I don't intend on having contributors on board.
+
+## License ([MIT License](http://choosealicense.com/licenses/mit/))
+
+This project is licensed under the MIT Open Source license, (c) [von MUTINDA](https://github.com/vonmutinda)
