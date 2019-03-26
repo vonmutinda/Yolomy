@@ -1,12 +1,16 @@
-.container{
+.container-fluid{
    color:white;
 }
 
+.row{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 #page1{
     background-image: url('../assets/backgrounds/hero.jpg');
     background-repeat: no-repeat;
-    background-attachment: cover;
+    background-size: cover;
     height: 100vh;
     // width: 100vw;
 }
@@ -65,7 +69,6 @@ a.card-link, h5{
 
 mat-checkbox{
     padding-right: 10px;
-   
 }
 
 .btn-lg{
@@ -108,4 +111,8 @@ blockquote p{
 
 .credits{
     padding-top: 5%;
+}
+
+.copyright{
+    text-transform: uppercase;
 }
