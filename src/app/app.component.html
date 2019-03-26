@@ -2,15 +2,17 @@
     <!-- .navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <h2 style="font-size:24px;" class="navbar-brand"> Yolomy </h2>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
-      <div class="collapse navbar-collapse" id="navbarColor02">
+      <!-- <div class="collapse navbar-collapse" id="navbarColor02">
     
         
-      </div>
-        <ul class="nav navbar-nav navbar-right">
+      </div> -->
+
+      <div class="collapse navbar-collapse" id="navbarResponsive" >
+        <ul class="nav navbar-nav navbar-right nav navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"> Home <span class="sr-only"></span></a>
           </li>
@@ -21,6 +23,7 @@
             <a class="nav-link" href="#"> <i class="fas fa-shopping-cart" ></i> </a>
           </li>
         </ul>
+      </div>
     </nav>
     <!-- ./navbar END -->
 
@@ -54,7 +57,7 @@
   <!-- .first element of page two -->
   <div id="page2" class="row">
     <!-- selected buttons -->
-    <div class="col-md-7">
+    <div class="col-md-7 checkbox">
       <form action="">
 
         <mat-checkbox> MEN </mat-checkbox> 
@@ -64,7 +67,7 @@
       </form>
     </div>
     <!-- ./ selected buttons -->
-    <div class="col-md-3">
+    <div class="col-md-3 text-center">
       <button type="button" class="btn btn-primary btn-lg"> SEE ALL PRODUCTS </button>
      
     </div>
@@ -86,7 +89,7 @@
         </div>
         <img class="img-responsive" height="209px" width="166px" src="/assets/products/tshirt.png" alt="Card image">
         <div class="card-body">
-            <a href="#" class="card-link"> T-SHIRT </a>
+            <a href="#" class="card-link prod-name"> T-SHIRT </a>
             <a href="#" class="card-link float-right"> 5,00 <i class="fas fa-euro-sign"></i> </a>
         </div>
       </div>
@@ -99,7 +102,7 @@
         </div>
         <img class="img-responsive" style="width:116px; height:232px;"src="./assets/products/pants.png" alt="Card image">
         <div class="card-body">
-          <a href="#" class="card-link"> T-SHIRT </a>
+          <a href="#" class="card-link prod-name"> PANTS FORCLAZ </a>
           <a href="#" class="card-link float-right"> 30,00 <i class="fas fa-euro-sign"></i> </a>
         </div>
       </div>
@@ -112,7 +115,7 @@
         </div>
         <img style="width:143px; height:211px;" src="/assets/products/backpack.png" alt="Card image">
         <div class="card-body">
-          <a href="#" class="card-link"> T-SHIRT </a>
+          <a href="#" class="card-link prod-name"> BACKPACK </a>
           <a href="#" class="card-link float-right"> 60,00 <i class="fas fa-euro-sign"></i> </a>
         </div>
       </div>
@@ -135,7 +138,7 @@
         </div>
         <img class="img-responsive" height="207px" width="226px" src="/assets/products/giacket.png" alt="Card image">
         <div class="card-body">
-          <a href="#" class="card-link"> T-SHIRT </a>
+          <a href="#" class="card-link prod-name"> GIACKET </a>
           <a href="#" class="card-link float-right"> 60,00 <i class="fas fa-euro-sign"></i> </a>
         </div>
       </div>
@@ -147,7 +150,7 @@
         </div>
         <img class="img-responsive" style="width:234px; height:195px;" src="/assets/products/trekkingshoes.png" alt="Card image">
         <div class="card-body">
-          <a href="#" class="card-link"> T-SHIRT </a>
+          <a href="#" class="card-link prod-name"> TREKKING SHOES </a>
           <a href="#" class="card-link float-right"> 80,00 <i class="fas fa-euro-sign"></i> </a>
         </div>
       </div>
@@ -160,7 +163,7 @@
         </div>
         <img style="width:175px; height:227px;" src="/assets/products/tshirt_ladies.png" alt="Card image">
         <div class="card-body">
-          <a href="#" class="card-link"> T-SHIRT </a>
+          <a href="#" class="card-link prod-name"> T-SHIRT </a>
           <a href="#" class="card-link float-right"> 20,00 <i class="fas fa-euro-sign" ></i>  </a>
         </div>
       </div>
@@ -200,7 +203,7 @@
   <!-- .discount information -->
   <div class="container-fluid discount">
     <blockquote class="blockquote">
-      <p style="padding-left:20px;" class="mb-0">
+      <p style="padding-left:20px; position:relative" class="mb-0">
         <i style="color:#016dd9; font-size:18px;" class="fab fa-twitter"></i> " SALE: Buy anything for 40% off. Use the promo CODE YOLOMY45 when you buy items. "
       </p>
     </blockquote>
@@ -227,11 +230,12 @@
     <!-- . social icons -->
     <div class="col-md-4">
       <h2 class="text-center"> We are social </h2> 
-      <p>
+      <p class="text-center">
         <img src="/assets/social_icons/g_plus.png" alt="">
         <img src="/assets/social_icons/you_tube.png" alt="">
         <img src="/assets/social_icons/skype.png" alt="">
         <img src="/assets/social_icons/facebook.png" alt="">
+        <br>
         <img src="/assets/social_icons/stumble_upon.png" alt="">
         <img src="/assets/social_icons/flickr.png" alt="">
         <img src="/assets/social_icons/twitter.png" alt="">
@@ -250,7 +254,7 @@
     <!-- ./credits -->
   </div>
 
-  <div style="margin-top:30px;" class="container-fluid text-center copyright">
+  <div style="margin-top:20px;" class="container-fluid text-center copyright">
     Copyright 2015. Yolomy
   </div>
 </div>
